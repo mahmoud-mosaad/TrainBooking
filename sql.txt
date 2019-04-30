@@ -1,11 +1,11 @@
-create database TrainBooking
+create database if not exists TrainBooking
 
 use TrainBooking
 
-create table Usr(Id varchar(32) primary key, Name varchar(50) not null, Email varchar(50) unique, RoleTitle varchar(50) not null)
-create table Train(Id varchar(32) primary key, Name varchar(50), NumberOfSeats int not null)
-create table Trip(Id varchar(32) primary key, Source varchar(50) not null, Destination varchar(50) not null, AvailableSeats int not null, Date date not null, Time time not null, TrainId varchar(32) foreign key references Train(Id))
-create table BookSeat(UsrId varchar(32) foreign key references Usr(Id), TripId varchar(32) foreign key references Trip(Id))
+create table if not exists Usr(Id varchar(32) primary key, Name varchar(50) not null, Email varchar(50) unique, RoleTitle varchar(50) not null)
+create table if not exists Train(Id varchar(32) primary key, Name varchar(50), NumberOfSeats int not null)
+create table if not exists Trip(Id varchar(32) primary key, Source varchar(50) not null, Destination varchar(50) not null, AvailableSeats int not null, Date date not null, Time time not null, TrainId varchar(32) foreign key references Train(Id))
+create table if not exists BookSeat(UsrId varchar(32) foreign key references Usr(Id), TripId varchar(32) foreign key references Trip(Id))
 
 
 insert into Usr values ('ae53f294262b45009638f3fe413d83eb', 'admin1', 'admin@mail.com', 'admin')
