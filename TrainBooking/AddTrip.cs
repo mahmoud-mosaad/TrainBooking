@@ -35,8 +35,7 @@ namespace TrainBooking
 
 
             if (numericUpDown2.Value != 0 && !domainUpDown2.Text.Equals("Select Train") && 
-                !textBox4.Text.Equals("") && !textBox5.Text.Equals("") && !textBox6.Text.Equals("") &&
-                !textBox7.Text.Equals(""))
+                !textBox4.Text.Equals("") && !textBox5.Text.Equals("") && !textBox6.Text.Equals(""))
             {
 
                 string temp = "insert into Trip values (";
@@ -52,10 +51,13 @@ namespace TrainBooking
 
                 temp = temp + "'" + textBox6.Text + "', ";
 
-                temp = temp + "'" + textBox7.Text + "', ";
+                temp = temp + "'" 
+                        +((numericUpDown1.Value < 10) ? "0" + numericUpDown1.Value.ToString() : numericUpDown1.Value.ToString())
+                        + ":" + ((numericUpDown3.Value < 10) ? "0" + numericUpDown3.Value.ToString() : numericUpDown3.Value.ToString())
+                        + "', ";
 
-                temp = temp + "'" + domainUpDown2.Text + "'";
-
+                temp = temp + "'" + domainUpDown2.Text + "')";
+                
                 config.execQuery(temp);
 
                 MessageBox.Show("Successfully insetred");

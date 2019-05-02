@@ -68,7 +68,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(17, 20);
+            this.checkBox1.Location = new System.Drawing.Point(17, 49);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(49, 17);
             this.checkBox1.TabIndex = 0;
@@ -79,7 +79,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(17, 54);
+            this.checkBox2.Location = new System.Drawing.Point(17, 83);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(49, 17);
             this.checkBox2.TabIndex = 1;
@@ -90,7 +90,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(17, 87);
+            this.checkBox3.Location = new System.Drawing.Point(17, 116);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(60, 17);
             this.checkBox3.TabIndex = 2;
@@ -101,7 +101,7 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(17, 123);
+            this.checkBox4.Location = new System.Drawing.Point(17, 152);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(79, 17);
             this.checkBox4.TabIndex = 3;
@@ -112,7 +112,7 @@
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(17, 156);
+            this.checkBox5.Location = new System.Drawing.Point(17, 185);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(109, 17);
             this.checkBox5.TabIndex = 4;
@@ -123,7 +123,7 @@
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(123, 18);
+            this.textBox1.Location = new System.Drawing.Point(123, 47);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 5;
@@ -131,7 +131,7 @@
             // textBox3
             // 
             this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(123, 85);
+            this.textBox3.Location = new System.Drawing.Point(123, 114);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 7;
@@ -139,7 +139,7 @@
             // textBox4
             // 
             this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(123, 121);
+            this.textBox4.Location = new System.Drawing.Point(123, 150);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 8;
@@ -147,14 +147,14 @@
             // numericUpDown1
             // 
             this.numericUpDown1.Enabled = false;
-            this.numericUpDown1.Location = new System.Drawing.Point(123, 155);
+            this.numericUpDown1.Location = new System.Drawing.Point(123, 184);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(100, 20);
             this.numericUpDown1.TabIndex = 9;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 194);
+            this.button1.Location = new System.Drawing.Point(12, 223);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(211, 23);
             this.button1.TabIndex = 10;
@@ -178,7 +178,7 @@
             this.dataGridView1.DataSource = this.tripBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(258, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 265);
+            this.dataGridView1.Size = new System.Drawing.Size(240, 294);
             this.dataGridView1.TabIndex = 11;
             // 
             // sourceDataGridViewTextBoxColumn
@@ -241,18 +241,18 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 254);
+            this.button2.Location = new System.Drawing.Point(17, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 23);
             this.button2.TabIndex = 12;
-            this.button2.Text = "Back";
+            this.button2.Text = "<  Back";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // numericUpDown2
             // 
             this.numericUpDown2.Enabled = false;
-            this.numericUpDown2.Location = new System.Drawing.Point(123, 53);
+            this.numericUpDown2.Location = new System.Drawing.Point(123, 82);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             23,
             0,
@@ -265,7 +265,7 @@
             // numericUpDown3
             // 
             this.numericUpDown3.Enabled = false;
-            this.numericUpDown3.Location = new System.Drawing.Point(174, 53);
+            this.numericUpDown3.Location = new System.Drawing.Point(174, 82);
             this.numericUpDown3.Maximum = new decimal(new int[] {
             59,
             0,
@@ -277,9 +277,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(123, 254);
+            this.button3.Location = new System.Drawing.Point(12, 283);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 23);
+            this.button3.Size = new System.Drawing.Size(211, 23);
             this.button3.TabIndex = 15;
             this.button3.Text = "Book Trip";
             this.button3.UseVisualStyleBackColor = true;
@@ -288,7 +288,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 227);
+            this.label1.Location = new System.Drawing.Point(14, 256);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 17;
@@ -296,7 +296,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(123, 224);
+            this.textBox2.Location = new System.Drawing.Point(123, 253);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 16;
@@ -309,7 +309,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 289);
+            this.ClientSize = new System.Drawing.Size(510, 320);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button3);

@@ -6,7 +6,7 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.51042in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -22,7 +22,21 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Train Id</Value>
+                              <Value>NumberOfTrips</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -260,7 +274,7 @@
           <TablixMembers>
             <TablixMember>
               <TablixHeader>
-                <Size>1in</Size>
+                <Size>1.15625in</Size>
                 <CellContents>
                   <Textbox Name="Textbox9">
                     <CanGrow>true</CanGrow>
@@ -299,7 +313,7 @@
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>1in</Size>
+                    <Size>1.15625in</Size>
                     <CellContents>
                       <Textbox Name="Textbox7">
                         <CanGrow>true</CanGrow>
@@ -338,7 +352,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>1in</Size>
+                        <Size>1.16667in</Size>
                         <CellContents>
                           <Textbox Name="Textbox5">
                             <CanGrow>true</CanGrow>
@@ -377,7 +391,7 @@
                       <TablixMembers>
                         <TablixMember>
                           <TablixHeader>
-                            <Size>1in</Size>
+                            <Size>0.85417in</Size>
                             <CellContents>
                               <Textbox Name="Textbox3">
                                 <CanGrow>true</CanGrow>
@@ -435,7 +449,7 @@
                 </SortExpression>
               </SortExpressions>
               <TablixHeader>
-                <Size>1in</Size>
+                <Size>1.15625in</Size>
                 <CellContents>
                   <Textbox Name="Destination">
                     <CanGrow>true</CanGrow>
@@ -483,7 +497,7 @@
                     </SortExpression>
                   </SortExpressions>
                   <TablixHeader>
-                    <Size>1in</Size>
+                    <Size>1.15625in</Size>
                     <CellContents>
                       <Textbox Name="Source">
                         <CanGrow>true</CanGrow>
@@ -531,7 +545,7 @@
                         </SortExpression>
                       </SortExpressions>
                       <TablixHeader>
-                        <Size>1in</Size>
+                        <Size>1.16667in</Size>
                         <CellContents>
                           <Textbox Name="Date">
                             <CanGrow>true</CanGrow>
@@ -579,7 +593,7 @@
                             </SortExpression>
                           </SortExpressions>
                           <TablixHeader>
-                            <Size>1in</Size>
+                            <Size>0.85417in</Size>
                             <CellContents>
                               <Textbox Name="Time">
                                 <CanGrow>true</CanGrow>
@@ -624,7 +638,7 @@
                         </TablixMember>
                         <TablixMember>
                           <TablixHeader>
-                            <Size>1in</Size>
+                            <Size>0.85417in</Size>
                             <CellContents>
                               <Textbox Name="Textbox26">
                                 <CanGrow>true</CanGrow>
@@ -669,7 +683,7 @@
                     </TablixMember>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>1in</Size>
+                        <Size>1.16667in</Size>
                         <CellContents>
                           <Textbox Name="Textbox22">
                             <CanGrow>true</CanGrow>
@@ -707,7 +721,7 @@
                       <TablixMembers>
                         <TablixMember>
                           <TablixHeader>
-                            <Size>1in</Size>
+                            <Size>0.85417in</Size>
                             <CellContents>
                               <Textbox Name="Textbox23">
                                 <CanGrow>true</CanGrow>
@@ -754,7 +768,7 @@
                 </TablixMember>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>1in</Size>
+                    <Size>1.15625in</Size>
                     <CellContents>
                       <Textbox Name="Textbox17">
                         <CanGrow>true</CanGrow>
@@ -792,7 +806,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>1in</Size>
+                        <Size>1.16667in</Size>
                         <CellContents>
                           <Textbox Name="Textbox18">
                             <CanGrow>true</CanGrow>
@@ -830,7 +844,7 @@
                       <TablixMembers>
                         <TablixMember>
                           <TablixHeader>
-                            <Size>1in</Size>
+                            <Size>0.85417in</Size>
                             <CellContents>
                               <Textbox Name="Textbox19">
                                 <CanGrow>true</CanGrow>
@@ -875,7 +889,7 @@
             </TablixMember>
             <TablixMember>
               <TablixHeader>
-                <Size>1in</Size>
+                <Size>1.15625in</Size>
                 <CellContents>
                   <Textbox Name="Textbox11">
                     <CanGrow>true</CanGrow>
@@ -913,7 +927,7 @@
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>1in</Size>
+                    <Size>1.15625in</Size>
                     <CellContents>
                       <Textbox Name="Textbox12">
                         <CanGrow>true</CanGrow>
@@ -951,7 +965,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>1in</Size>
+                        <Size>1.16667in</Size>
                         <CellContents>
                           <Textbox Name="Textbox13">
                             <CanGrow>true</CanGrow>
@@ -989,7 +1003,7 @@
                       <TablixMembers>
                         <TablixMember>
                           <TablixHeader>
-                            <Size>1in</Size>
+                            <Size>0.85417in</Size>
                             <CellContents>
                               <Textbox Name="Textbox14">
                                 <CanGrow>true</CanGrow>
@@ -1036,7 +1050,7 @@
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
         <Height>1.5in</Height>
-        <Width>5in</Width>
+        <Width>5.84375in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1047,7 +1061,7 @@
     <Height>2in</Height>
     <Style />
   </Body>
-  <Width>6.5in</Width>
+  <Width>5.85417in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>

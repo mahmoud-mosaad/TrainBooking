@@ -39,7 +39,7 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(121, 69);
+            this.numericUpDown1.Location = new System.Drawing.Point(134, 111);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(115, 20);
             this.numericUpDown1.TabIndex = 19;
@@ -47,7 +47,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 46);
+            this.label3.Location = new System.Drawing.Point(26, 88);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(102, 13);
             this.label3.TabIndex = 18;
@@ -55,16 +55,16 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(121, 43);
+            this.textBox3.Location = new System.Drawing.Point(134, 85);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(115, 20);
             this.textBox3.TabIndex = 17;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(145, 154);
+            this.button3.Location = new System.Drawing.Point(29, 158);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(220, 23);
             this.button3.TabIndex = 16;
             this.button3.Text = "AddTrain";
             this.button3.UseVisualStyleBackColor = true;
@@ -72,18 +72,18 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(40, 154);
+            this.button1.Location = new System.Drawing.Point(29, 24);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 20;
-            this.button1.Text = "Back";
+            this.button1.Text = "<  Back";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 75);
+            this.label1.Location = new System.Drawing.Point(29, 117);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 13);
             this.label1.TabIndex = 21;
