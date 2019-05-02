@@ -60,5 +60,10 @@ namespace TrainBooking
         {
             config.closeAndOpen(this, new CancelTrip());
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            config.closeAndOpen(this, new TripReport());
+        }
     }
 }
